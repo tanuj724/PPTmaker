@@ -1,0 +1,20 @@
+{
+  "name": "PPTmaker",
+  "version": "1.0.0",
+  "description": "Agentic presentation generator using Gemini and python-pptx",
+  "models": {
+    "default": "omniroute/coding",
+    "agents": {
+      "orchestrator": "omniroute/Best Reasoning (Plan)",
+      "content": "omniroute/Best Chat (General)",
+      "theme": "omniroute/Best Chat (General)",
+      "builder": "omniroute/Best Coding (Build)"
+    }
+  },
+  "commands": {
+    "generate": "python main.py"
+  },
+  "env": {
+    "GEMINI_API_KEY": true
+  }
+}
