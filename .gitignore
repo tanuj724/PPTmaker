@@ -3,6 +3,20 @@
 .env.local
 .env.*
 
+# Generated Presentation Output
+*.pptx
+*.ppt
+*.pdf
+
+# Downloaded & Curated Media / Image Assets
+assets/
+assets_*/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.svg
+
 # Python
 venv/
 .venv/
@@ -38,3 +52,4 @@ coverage/
 htmlcov/
 .pytest_cache/
 .mypy_cache/
+
