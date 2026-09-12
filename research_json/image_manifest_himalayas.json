@@ -1,0 +1,37 @@
+{
+  "title": {
+    "file": "assets_himalayas/title.jpg",
+    "source": "File:Mount Everest as seen from Drukair2.jpg",
+    "dimensions": "1920x1080",
+    "mode": "dark",
+    "status": "ready"
+  },
+  "rivers_glaciers": {
+    "file": "assets_himalayas/rivers_glaciers.jpg",
+    "source": "File:Trans-Himalaya; discoveries and adventures in Tibet (1909) (14596141130).jpg",
+    "dimensions": "880x1060",
+    "mode": "plain",
+    "status": "ready"
+  },
+  "quote_portrait": {
+    "file": "assets_himalayas/quote_portrait.jpg",
+    "source": "File:Edmund HIllary and wife with flowers in 1953 Amsterdam train station detail, from- Aankomst Hillary ( Mount Everest beklimmer) te Amsterdam, Bestanddeelnr 906-1044 (cropped).jpg",
+    "dimensions": "760x960",
+    "mode": "plain",
+    "status": "ready"
+  },
+  "glaciers": {
+    "file": "assets_himalayas/glaciers.jpg",
+    "source": "File:Aerial View of Peaks of Khumbu, Ngozumpa Glacier and Gokyo Lakes (crop).jpg",
+    "dimensions": "880x1060",
+    "mode": "plain",
+    "status": "ready"
+  },
+  "closing": {
+    "file": "assets_himalayas/closing.jpg",
+    "source": "File:Kangchenjunga from Tiger Hill.jpg",
+    "dimensions": "1920x1080",
+    "mode": "dark",
+    "status": "ready"
+  }
+}

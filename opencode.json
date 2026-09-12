@@ -1,0 +1,50 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "name": "PPTmaker",
+  "version": "2.0.0",
+  "description": "Autonomous Creative Multi-Agent Presentation System with Knowledge Base & MCP Image Curation",
+  "models": {
+    "default": "omniroute/coding",
+    "agents": {
+      "orchestrator": "omniroute/Best Reasoning (Plan)",
+      "researcher": "omniroute/Best Chat (General)",
+      "content": "omniroute/Best Chat (General)",
+      "theme_designer": "omniroute/Best Reasoning (Plan)",
+      "image_curator": "omniroute/Best Chat (General)",
+      "builder": "omniroute/Best Coding (Build)"
+    }
+  },
+  "knowledge_base": [
+    "knowledge_base/presentation_design_principles.md",
+    "knowledge_base/layout_templates_catalog.md",
+    "knowledge_base/visual_storytelling_and_pacing.md"
+  ],
+  "mcp": {
+    "image_curator": {
+      "type": "local",
+      "command": ["py", "tools/image_curator.py"],
+      "enabled": true
+    },
+    "wikimedia": {
+      "type": "local",
+      "command": ["npx", "-y", "wikimedia-image-search-mcp"],
+      "enabled": true
+    },
+    "unsplash": {
+      "type": "local",
+      "command": ["npx", "-y", "unsplash-mcp-server"],
+      "enabled": true,
+      "environment": {
+        "UNSPLASH_ACCESS_KEY": "yUN1K9v7x_oLLjML1rYVDk_BsGfHpLqLooSo7tnZ5z0"
+      }
+    }
+  },
+  "commands": {
+    "generate": "py -3 main.py"
+  },
+  "env": {
+    "GEMINI_API_KEY": true,
+    "UNSPLASH_ACCESS_KEY": false,
+    "PEXELS_API_KEY": false
+  }
+}

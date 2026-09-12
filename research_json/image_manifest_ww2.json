@@ -1,0 +1,72 @@
+{
+  "brief_id": "ppt_ww2_the_last_world_war",
+  "manifest_id": "img_manifest_ww2_v1",
+  "generated_at": "2026-09-12T15:00:00Z",
+  "total_requested": 6,
+  "total_fulfilled": 6,
+  "total_failed": 0,
+  "output_dir": "/home/tanuj_joshi/PPTmaker/assets_ww2",
+  "assets": [
+    {
+      "slot_id": "hero_cover",
+      "slide_number": 1,
+      "layout": "hero_cover",
+      "file_path": "/home/tanuj_joshi/PPTmaker/assets_ww2/hero_cover.jpg",
+      "actual_px": [1920, 1080],
+      "license": "US Gov / Public Domain",
+      "subject": "Raising the Flag on Iwo Jima, Joe Rosenthal 1945",
+      "alt_text": "US Marines raising the American flag atop Mount Suribachi during the Battle of Iwo Jima"
+    },
+    {
+      "slot_id": "versus_allies",
+      "slide_number": 4,
+      "layout": "versus_duel_split",
+      "file_path": "/home/tanuj_joshi/PPTmaker/assets_ww2/versus_allies.jpg",
+      "actual_px": [800, 800],
+      "license": "NARA / US Gov / Public Domain",
+      "subject": "American Soldiers in Paris victory parade",
+      "alt_text": "American troops march in victory parade through liberated Paris"
+    },
+    {
+      "slot_id": "versus_axis",
+      "slide_number": 4,
+      "layout": "versus_duel_split",
+      "file_path": "/home/tanuj_joshi/PPTmaker/assets_ww2/versus_axis.jpg",
+      "actual_px": [800, 800],
+      "license": "Public Domain",
+      "subject": "Wehrmacht soldiers on the Eastern Front 1941",
+      "alt_text": "German infantrymen during combat on the Eastern Front"
+    },
+    {
+      "slot_id": "spotlight",
+      "slide_number": 7,
+      "layout": "spotlight_quote_manifesto",
+      "file_path": "/home/tanuj_joshi/PPTmaker/assets_ww2/spotlight.jpg",
+      "actual_px": [880, 1100],
+      "license": "UK Ministry of Defence / OGL v1.0",
+      "subject": "Supermarine Spitfire in flight",
+      "alt_text": "Supermarine Spitfire fighter aircraft in flight"
+    },
+    {
+      "slot_id": "asymmetric_turn",
+      "slide_number": 9,
+      "layout": "asymmetric_editorial_split",
+      "file_path": "/home/tanuj_joshi/PPTmaker/assets_ww2/asymmetric_turn.jpg",
+      "actual_px": [880, 620],
+      "license": "US Coast Guard / US Gov / Public Domain",
+      "subject": "Into the Jaws of Death, Robert F. Sargent, 6 June 1944",
+      "alt_text": "US troops disembarking from a landing craft onto Omaha Beach on D-Day"
+    },
+    {
+      "slot_id": "hero_closing",
+      "slide_number": 11,
+      "layout": "hero_closing_climax",
+      "file_path": "/home/tanuj_joshi/PPTmaker/assets_ww2/hero_closing.jpg",
+      "actual_px": [1920, 1080],
+      "license": "US Gov / Public Domain",
+      "subject": "Churchill, Roosevelt, Stalin at Yalta, February 1945",
+      "alt_text": "The Big Three seated at the Yalta Conference in February 1945"
+    }
+  ],
+  "attribution_block": "Photographs: US National Archives and Records Administration, UK Ministry of Defence, and Wikimedia Commons contributors. Public Domain / Open Government Licence. Complete credits preserved in slide notes."
+}

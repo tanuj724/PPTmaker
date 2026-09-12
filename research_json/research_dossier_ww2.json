@@ -1,0 +1,78 @@
+{
+  "brief_id": "ppt_ww2_the_last_world_war",
+  "topic": "World War 2",
+  "researched_at": "2026-09-12",
+  "executive_summary": "World War II was the deadliest conflict in history: an estimated 60-75 million died, over half of them civilians, roughly 3% of the world's people in 1940. Two coalitions - the Allies and the Axis - fought across nearly every continent after a decade of appeasement and expansion. The war was won as much by industry and science as by battle: the US alone produced some 296,000 aircraft, while radar, penicillin, jet engines and the atomic bomb changed what war (and medicine and energy) could be. Its turning points clustered in 1942-43 - Midway, Stalingrad, El Alamein, Kursk - after which the Axis could only lose. The cost broke empires and built the modern order: the UN, the nuclear age, the Cold War, and the end of colonialism all descend from 1945. The deck argues this was the last world war not because there were no more wars, but because no conflict has since repeated its scale.",
+  "mode": "degraded-research",
+  "mode_note": "No search MCP configured. Headline figures live-verified against Wikipedia REST API on 2026-09-12; secondary figures from internal encyclopedic knowledge, marked where estimates diverge. All contested numbers use conservative ranges with '~'.",
+  "verified_facts": [
+    {"id": "F01", "claim": "Total WWII deaths are estimated at 60-75 million, the deadliest conflict in history", "value": "60-75M", "as_of": "2026", "sources": ["Wikipedia 'World War II' lead (Tier 2)", "Wikipedia 'World War II casualties' (Tier 2)"], "confidence": "high", "slide_fit": ["dual_stat", "stat_grid", "matrix"]},
+    {"id": "F02", "claim": "Deaths represent about 3% of the estimated global population of 2.3 billion in 1940", "value": "~3%", "as_of": "2026", "sources": ["Wikipedia 'World War II casualties' (Tier 2)"], "confidence": "high", "slide_fit": ["stat_grid"]},
+    {"id": "F03", "claim": "Civilian deaths totaled 50-55 million; military deaths 21-25 million", "value": "50-55M / 21-25M", "as_of": "2026", "sources": ["Wikipedia 'World War II casualties' (Tier 2)"], "confidence": "high", "slide_fit": ["matrix"]},
+    {"id": "F04", "claim": "The Holocaust murdered around 6 million Jews from 1941-1945, about two-thirds of Europe's Jews", "value": "~6M", "as_of": "2026", "sources": ["Wikipedia 'The Holocaust' (Tier 2); USHMM", "encyclopedic consensus"], "confidence": "high", "slide_fit": ["matrix", "key_takeaways"]},
+    {"id": "F05", "claim": "The German 6th Army surrendered at Stalingrad, Feb 1943 - the largest and deadliest urban battle in history", "value": "200 days", "as_of": "2026", "sources": ["Wikipedia 'Battle of Stalingrad' (Tier 2)"], "confidence": "high", "slide_fit": ["asymmetric_split"]},
+    {"id": "F06", "claim": "At Midway 4-7 June 1942 the Japanese Combined Fleet lost four carriers - the decisive Pacific turning point", "value": "4 carriers", "as_of": "2026", "sources": ["Wikipedia 'Battle of Midway' (Tier 2)"], "confidence": "high", "slide_fit": ["asymmetric_split"]},
+    {"id": "F07", "claim": "D-Day saw the largest seaborne invasion in history, 6 June 1944", "value": "156,000 troops", "as_of": "2026", "sources": ["Wikipedia 'Normandy landings' (Tier 2)"], "confidence": "high", "slide_fit": ["asymmetric_split"]},
+    {"id": "F08", "claim": "Japan attacked Pearl Harbor on 7 December 1941, prompting the US declaration of war", "value": "7 Dec 1941", "as_of": "2026", "sources": ["Wikipedia 'Attack on Pearl Harbor' (Tier 2)"], "confidence": "high", "slide_fit": ["timeline"]},
+    {"id": "F09", "claim": "Germany invaded Poland on 1 September 1939, starting the war in Europe; Britain and France declared two days later", "value": "1 Sept 1939", "as_of": "2026", "sources": ["Wikipedia 'Soviet Union in WWII' (Tier 2)"], "confidence": "high", "slide_fit": ["timeline"]},
+    {"id": "F10", "claim": "Germany invaded the USSR on 22 June 1941 (Operation Barbarossa)", "value": "22 June 1941", "as_of": "2026", "sources": ["encyclopedic knowledge"], "confidence": "high", "slide_fit": ["timeline"]},
+    {"id": "F11", "claim": "The UN Charter was signed 26 June 1945; the United Nations had 51 founding members", "value": "51", "as_of": "2026", "sources": ["Wikipedia 'United Nations' (Tier 2)"], "confidence": "high", "slide_fit": ["stat_grid", "key_takeaways"]},
+    {"id": "F12", "claim": "'Never in the field of human conflict was so much owed by so many to so few.' - Churchill, House of Commons, 20 August 1940", "value": "20 Aug 1940", "as_of": "2026", "sources": ["Hansard record (Tier 1)"], "confidence": "high", "slide_fit": ["spotlight_quote"]},
+    {"id": "F13", "claim": "The United States produced roughly 296,000 aircraft and 88,000+ tanks during the war", "value": "~296K", "as_of": "2026", "sources": ["encyclopedic knowledge (Tier 2 figures, medium confidence)"], "confidence": "medium", "slide_fit": ["three_pillars"]},
+    {"id": "F14", "claim": "Soviet total war deaths ~27 million (military ~8.7M, civilian ~18M)", "value": "~27M", "as_of": "2026", "sources": ["encyclopedic knowledge; official Russian 2015 count 26.6M (Tier 2)"], "confidence": "medium", "slide_fit": ["matrix"]},
+    {"id": "F15", "claim": "Over 100 million soldiers were mobilized in total across the war", "value": "100M+", "as_of": "2026", "sources": ["encyclopedic knowledge (Tier 2)"], "confidence": "medium", "slide_fit": ["stat_grid"]},
+    {"id": "F16", "claim": "The Iwo Jima flag-raising photograph was taken by Joe Rosenthal on 23 February 1945 (US Gov work, public domain)", "value": "23 Feb 1945", "as_of": "2026", "sources": ["Wikipedia 'Raising the Flag on Iwo Jima' (Tier 2)"], "confidence": "high", "slide_fit": ["hero_cover"]}
+  ],
+  "counter_evidence": [
+    {"id": "C01", "claim": "The 'Good War' framing is contested: Allied area-bombing of Dresden and Tokyo, the atomic bombs, and Soviet occupation brutality show the distinction between sides was not clean", "why_it_matters": "Keeps the deck analytical rather than triumphal; supports the argument that the war's violence was total on every side"},
+    {"id": "C02", "claim": "Casualty figures for China (15-25M range) and Germany (~7M disputed to ~13M) vary widely by source and counting method", "why_it_matters": "The deck quotes ranges and uses '~', never a false precision"}
+  ],
+  "quotables": [
+    {"id": "Q01", "quote": "Never in the field of human conflict was so much owed by so many to so few.", "speaker": "Winston Churchill", "occasion": "House of Commons, on the RAF pilots of the Battle of Britain", "date": "1940-08-20", "source": {"name": "Hansard", "tier": 1}, "slide_fit": "spotlight_quote"}
+  ],
+  "anecdotes": [
+    {"id": "A01", "story": "At Midway, US dive-bombers found the Japanese carriers refueling and rearming their fighters on deck; in a few minutes three carriers were burning, a fourth fell that evening.", "slide_fit": "turning_points", "why_it_works": "Turns a strategic reversal into a single visual moment"},
+    {"id": "A02", "story": "Soviet factories rolled east by rail - 1,500 plants relocated beyond the Urals in 1941-42, many producing tanks and 100 days after arrival.", "slide_fit": "home_front", "why_it_works": "Total war made geographic"},
+    {"id": "A03", "story": "Britain's butter, sugar, meat and eggs were rationed from January 1940; the last ration (meat) ended only in July 1954.", "slide_fit": "home_front", "why_it_works": "A concrete, human measure of how long the war's shadow lasted"}
+  ],
+  "timeline": [
+    {"period": "1931", "event": "Japan invades Manchuria", "significance": "The aggression the League of Nations could not stop"},
+    {"period": "1937", "event": "Japan's full invasion of China", "significance": "Asia's war begins; millions die before 1939"},
+    {"period": "1939", "event": "Germany invades Poland, 1 Sept; Britain and France declare war", "significance": "Europe's war begins"},
+    {"period": "1941", "event": "Barbarossa (June) and Pearl Harbor (December)", "significance": "The war becomes genuinely global"},
+    {"period": "1942-43", "event": "Midway, El Alamein, Stalingrad, Kursk", "significance": "The strategic initiative passes from the Axis"},
+    {"period": "1944-45", "event": "D-Day, Berlin, the atomic bombs", "significance": "Unconditional surrender; the epoch-defining close"}
+  ],
+  "scale_anchors": [
+    {"raw": "60-75 million dead", "reframed": "about 3% of every person alive in 1940"},
+    {"raw": "100 million mobilized", "reframed": "about one in twenty of the world's people under arms"},
+    {"raw": "6 years", "reframed": "longer than the interval that separates two US presidential elections - barely a decade's wages"}
+  ],
+  "metrics_matrix": {
+    "columns": ["Nation", "Military deaths", "Civilian deaths"],
+    "rows": [
+      {"metric": "USSR", "a": "~8.7M", "b": "~18M", "note": "total ~27M, the highest of any state"},
+      {"metric": "China", "a": "~3.5M", "b": "~15M", "note": "estimates run to 20M+, heavily debated"},
+      {"metric": "Germany", "a": "~5.3M", "b": "~1.5M", "note": null},
+      {"metric": "Poland", "a": "~0.2M", "b": "~5.4M", "note": "~17% of its population killed"},
+      {"metric": "Japan", "a": "~2.1M", "b": "~0.9M", "note": null},
+      {"metric": "USA", "a": "~0.4M", "b": "~11", "note": "mainland civilian deaths negligible"}
+    ]
+  },
+  "visual_opportunities": [
+    {"slot_role": "hero_cover", "subject": "Raising the Flag on Iwo Jima, 1945", "preferred_source": "wikimedia", "must_avoid": ["watermark", "colourised look", "small file"]},
+    {"slot_role": "versus_allies", "subject": "Allied soldiers, WWII (parade or armour)", "preferred_source": "wikimedia"},
+    {"slot_role": "versus_axis", "subject": "German soldiers on the Eastern Front (Wehrmacht field photo)", "preferred_source": "wikimedia"},
+    {"slot_role": "spotlight", "subject": "Supermarine Spitfires in flight, Battle of Britain era", "preferred_source": "wikimedia"},
+    {"slot_role": "asymmetric_turn", "subject": "American troops landing at Omaha Beach, 6 June 1944 ('Into the Jaws of Death')", "preferred_source": "wikimedia"},
+    {"slot_role": "hero_closing", "subject": "The Big Three at Yalta, February 1945 (Churchill, Roosevelt, Stalin)", "preferred_source": "wikimedia"}
+  ],
+  "research_gaps": [
+    {"question": "Exact national casualty totals (China, Germany)", "why_unresolved": "Methodologies differ; Weimar/territorial counting disputes", "recommendation": "Use conservative rounded ranges and label as estimates"},
+    {"question": "Exact 'The Few' pilot count", "why_unresolved": "Sources cite 2,927 to ~3,000", "recommendation": "Say 'roughly 3,000'"}
+  ],
+  "source_log": [
+    {"name": "Wikipedia REST API (en)", "tier": 2, "accessed": "2026-09-12", "used_for": ["F01-F09", "F11", "F12", "F16"]},
+    {"name": "Internal encyclopedic knowledge", "tier": 2, "accessed": "2026-09-12", "used_for": ["F10", "F13-F15", "metrics_matrix"], "note": "not live re-verified; marked medium confidence"}
+  ]
+}

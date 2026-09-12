@@ -1,0 +1,37 @@
+{
+  "title": {
+    "file": "assets_indian_culture/title.jpg",
+    "source": "File:Taj Mahal in March 2004.jpg",
+    "dimensions": "1920x1080",
+    "mode": "dark",
+    "status": "ready"
+  },
+  "architecture": {
+    "file": "assets_indian_culture/architecture.jpg",
+    "source": "File:Sun Temple Konark.jpg",
+    "dimensions": "880x1060",
+    "mode": "plain",
+    "status": "ready"
+  },
+  "quote_portrait": {
+    "file": "assets_indian_culture/quote_portrait.jpg",
+    "source": "File:Swami Vivekananda 1893.jpg",
+    "dimensions": "760x960",
+    "mode": "plain",
+    "status": "ready"
+  },
+  "festivals": {
+    "file": "assets_indian_culture/festivals.jpg",
+    "source": "File:Diwali Lamps.jpg",
+    "dimensions": "880x1060",
+    "mode": "plain",
+    "status": "ready"
+  },
+  "closing": {
+    "file": "assets_indian_culture/closing.jpg",
+    "source": "File:Dev Deepavali at Varanasi DSC04305 03.jpg",
+    "dimensions": "1920x1080",
+    "mode": "dark",
+    "status": "ready"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "brief_id": "ppt_2026_indian_culture_v1",
+  "topic": "Indian Culture",
+  "researched_at": "2026-09-12",
+  "executive_summary": "Indian culture represents one of the world's oldest and most vibrant continuous civilizations, spanning over 5,000 years from the urban planning of the Indus Valley to the Upanishadic philosophical inquiries, classical Sanskrit treatises, monumental temple architecture, and vibrant living traditions. Rather than enforcing monocultural uniformity, India's cultural genius lies in its synthesis of vast regional, linguistic, religious, and artistic diversities under unifying philosophical anchors such as Vasudhaiva Kutumbakam ('The World is One Family'), Ahimsa (Non-violence), and Dharma (Ethical Order). Today, with 42 UNESCO World Heritage Sites, 22 constitutional languages, 8 recognized classical dance forms, and global soft-power pillars including Yoga, Ayurveda, and the Indian diaspora, Indian culture continues to redefine human heritage in the 21st century.",
+  "mode": "verified-encyclopedic",
+  "verified_facts": [
+    {"id": "F01", "claim": "Indian civilization exhibits over 5,000 years of unbroken cultural and philosophical continuity, originating from the Indus Valley (c. 2500 BCE)", "value": "5,000+ Years", "sources": ["Archaeological Survey of India", "UNESCO World Heritage Centre"], "confidence": "high", "slide_fit": ["dual_stat", "timeline"]},
+    {"id": "F02", "claim": "India is home to over 1.4 billion people, representing the world's most populous and diverse cultural democracy", "value": "1.4B+ People", "sources": ["Census of India", "UN Population Fund"], "confidence": "high", "slide_fit": ["dual_stat", "stat_grid"]},
+    {"id": "F03", "claim": "India has 42 designated UNESCO World Heritage Sites (34 cultural, 7 natural, 1 mixed)", "value": "42 Sites", "sources": ["UNESCO World Heritage List 2024"], "confidence": "high", "slide_fit": ["stat_grid", "architecture"]},
+    {"id": "F04", "claim": "The Constitution of India recognizes 22 official languages in its Eighth Schedule, drawn from Indo-Aryan, Dravidian, Austroasiatic, and Tibeto-Burman families", "value": "22 Languages", "sources": ["Eighth Schedule, Constitution of India", "Census Language Survey"], "confidence": "high", "slide_fit": ["stat_grid"]},
+    {"id": "F05", "claim": "The Natya Shastra, compiled between 200 BCE and 200 CE by Bharata Muni, serves as the foundational Sanskrit treatise for performing arts, music, and the 8 Rasas", "value": "2,000+ Years", "sources": ["Sangeet Natak Akademi", "Encyclopaedia Britannica"], "confidence": "high", "slide_fit": ["matrix", "dance"]},
+    {"id": "F06", "claim": "The Kumbh Mela is the world's largest peaceful human gathering, attracting up to 240 million pilgrims over its multi-week sacred river observances", "value": "240M+ Pilgrims", "sources": ["UNESCO Intangible Cultural Heritage Registry", "Government of Uttar Pradesh"], "confidence": "high", "slide_fit": ["stat_grid", "festivals"]},
+    {"id": "F07", "claim": "The Kailasa Temple at Ellora (Cave 16) is the world's largest monolithic rock-cut structure, carved vertically from top to bottom out of a single basalt cliff", "value": "Single Rock Monolith", "sources": ["Archaeological Survey of India", "UNESCO"], "confidence": "high", "slide_fit": ["asymmetric_split"]},
+    {"id": "F08", "claim": "International Day of Yoga (June 21) was unanimously adopted by the UN General Assembly with 175 co-sponsors and is celebrated across 190+ countries", "value": "190+ Countries", "sources": ["United Nations General Assembly Resolution 69/131", "Ministry of AYUSH"], "confidence": "high", "slide_fit": ["key_takeaways"]},
+    {"id": "F09", "claim": "The Sanskrit philosophical dictum 'Vasudhaiva Kutumbakam' (The World is One Family) originates from the Maha Upanishad (VI.71-73)", "value": "Maha Upanishad", "sources": ["Vedic Heritage Portal", "Ministry of External Affairs"], "confidence": "high", "slide_fit": ["three_pillars"]},
+    {"id": "F10", "claim": "The Indian diaspora of over 32 million non-resident citizens and people of Indian origin forms the world's largest transnational cultural bridge", "value": "32M+ Diaspora", "sources": ["UN Department of Economic and Social Affairs", "Ministry of External Affairs"], "confidence": "high", "slide_fit": ["key_takeaways"]}
+  ],
+  "counter_evidence": [
+    {"id": "C01", "claim": "Indian culture is often mischaracterized as a monolithic, single-creed tradition rather than a polyphonic ecosystem of thousands of distinct culinary, musical, and dialect traditions", "why_it_matters": "Ensures the deck emphasizes internal pluralism and reciprocal synthesis over simplistic generalizations"},
+    {"id": "C02", "claim": "Tradition in India is not backward-looking preservation; it evolves dynamically through classical-contemporary reinterpretation and digital-era revival", "why_it_matters": "Keeps the narrative active and forward-looking rather than nostalgic"}
+  ],
+  "quotables": [
+    {"id": "Q01", "quote": "I am proud to belong to a religion which has taught the world both tolerance and universal acceptance. We believe not only in universal toleration, but we accept all religions as true.", "speaker": "Swami Vivekananda", "occasion": "Address at the World Parliament of Religions, Chicago", "date": "1893-09-11", "source": {"name": "Complete Works of Swami Vivekananda, Vol. 1", "tier": 1}, "slide_fit": "spotlight_quote"}
+  ],
+  "anecdotes": [
+    {"id": "A01", "story": "At Ellora Cave 16 (Kailasa), 8th-century Rashtrakuta artisans carved downwards through 200,000 tonnes of volcanic rock without scaffolding, leaving zero room for architectural error.", "slide_fit": "architecture", "why_it_works": "Converts monumental engineering into a breathless physical narrative"},
+    {"id": "A02", "story": "In Indian classical music, the Raga is not a static composition but a living sonic architecture tied to specific hours of the day and seasonal moods (Bhairav at dawn, Megh during monsoons).", "slide_fit": "arts", "why_it_works": "Illustrates how aesthetic theory is deeply intertwined with cosmic and seasonal cycles"}
+  ],
+  "timeline": [
+    {"period": "2500–1700 BCE", "event": "Indus Valley Civilization (Harappa & Mohenjo-Daro)", "significance": "Advanced urban planning, grid architecture, public baths, and standardized weights"},
+    {"period": "1500–500 BCE", "event": "Vedic Era & Upanishadic Philosophy", "significance": "Composition of the Vedas, philosophical inquiries on Brahman/Atman, and the foundations of Sanskrit"},
+    {"period": "300 BCE–500 CE", "event": "Classical Age: Mauryas to Guptas", "significance": "Ashoka's edicts of non-violence, Natya Shastra, Aryabhata's mathematics, and Ajanta cave murals"},
+    {"period": "800–1700 CE", "event": "Medieval Synthesis & Bhakti-Sufi Renaissance", "significance": "Magnificent temple architecture (Cholas, Khajuraho), Indo-Islamic architectural marvels, and egalitarian devotional poetry"}
+  ],
+  "scale_anchors": [
+    {"raw": "5,000+ years", "reframed": "older than the Roman Republic, Greek classical theater, and the Great Pyramid of Giza"},
+    {"raw": "22 official languages", "reframed": "more constitutionally recognized tongues than the entire European Union's major sub-families"},
+    {"raw": "240 million pilgrims", "reframed": "more than two-thirds the entire population of the United States gathering at one sacred confluence"}
+  ],
+  "metrics_matrix": {
+    "columns": ["Dance Form", "State of Origin", "Treatise & Style", "Signature Expressive Focus"],
+    "rows": [
+      {"metric": "Bharatanatyam", "a": "Tamil Nadu", "b": "Natya Shastra / Sadir", "note": "Geometric precision, brisk footwork, complex Abhinaya and Mudras"},
+      {"metric": "Kathak", "a": "Uttar Pradesh", "b": "Natya Shastra / Gharanas", "note": "Intricate Tatkar rhythmic footwork, Chakkars (spins), story-weaving"},
+      {"metric": "Kathakali", "a": "Kerala", "b": "Hastha Lakshana Deepika", "note": "Elaborate Aharya make-up, grand headdresses, dramatic martial gestures"},
+      {"metric": "Odissi", "a": "Odisha", "b": "Abhinaya Darpana", "note": "Sculptural Tribhangi (three-bend) postures mirroring temple reliefs"},
+      {"metric": "Manipuri", "a": "Manipur", "b": "Govinda Sangit Leela", "note": "Graceful circular lyrical movements, Raslila devotional ecstasy"},
+      {"metric": "Kuchipudi", "a": "Andhra Pradesh", "b": "Natya Shastra / Yakshagana", "note": "Dynamic dance-drama, Tarangam plate-balancing footwork"}
+    ]
+  }
+}
