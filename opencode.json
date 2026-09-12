@@ -33,10 +33,7 @@
     "unsplash": {
       "type": "local",
       "command": ["npx", "-y", "unsplash-mcp-server"],
-      "enabled": true,
-      "environment": {
-        "UNSPLASH_ACCESS_KEY": "yUN1K9v7x_oLLjML1rYVDk_BsGfHpLqLooSo7tnZ5z0"
-      }
+      "enabled": true
     }
   },
   "commands": {

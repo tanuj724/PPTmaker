@@ -23,8 +23,9 @@ SYSTEM_PROMPT = (
 class PlannerAgent:
     """Generates a DeckPlan using Gemini's structured output."""
 
-    def __init__(self, model_name: str = "gemini-2.0-flash") -> None:
+    def __init__(self, model_name: str = "gemini-flash-latest") -> None:
         genai.configure(api_key=get_gemini_api_key())
+        self.model_name = model_name
         self.model = genai.GenerativeModel(
             model_name,
             system_instruction=SYSTEM_PROMPT,
@@ -48,12 +49,21 @@ class PlannerAgent:
             f"Total number of slides: {slide_count}."
         )
 
-        response = self.model.generate_content(
-            user_prompt,
-            generation_config=generation_config,
-        )
+        candidate_models = [self.model_name, "gemini-flash-latest", "gemini-pro-latest", "gemini-3.8-flash", "gemini-3.7-flash"]
+        last_err = None
+        for m in dict.fromkeys(candidate_models):
+            try:
+                model = genai.GenerativeModel(m, system_instruction=SYSTEM_PROMPT)
+                response = model.generate_content(
+                    user_prompt,
+                    generation_config=generation_config,
+                )
+                return DeckPlan.model_validate_json(response.text)
+            except Exception as e:
+                last_err = e
+                continue
 
-        return DeckPlan.model_validate_json(response.text)
+        raise last_err or RuntimeError("Failed to generate plan with available Gemini models.")
 
 
 if __name__ == "__main__":
